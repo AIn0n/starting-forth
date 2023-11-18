@@ -1,0 +1,7 @@
+1.
+    a b dup dup -> a b b b
+    a b 2dup -> a b a b
+
+2.
+    : 4rev swap 2swap swap ;
+
