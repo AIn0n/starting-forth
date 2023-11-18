@@ -1,0 +1,10 @@
+: 2B1 4 * - 6 + / ;
+(c a b -- result)
+: 2B2 8 * / ;
+(a b -- result)
+: 2B3 * 200 / ;
+(a b -- result)
+: 2B4 2 * 3 + * ;
+(a a -- result)
+: 2B5 - / ;
+(c a b -- result)
