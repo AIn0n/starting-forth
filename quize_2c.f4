@@ -1,0 +1,8 @@
+: 2C1 rot rot swap ;
+: 2C2 swap dup rot rot ;
+: -ROT rot rot ;
+: 2C4 dup 1 + swap / ;
+: 2C5 dup 7 * 5 + * ;
+: 2C6 swap dup dup * 9 * rot * - ;
+9a^2 - ba = a(9a - b)
+: 2C6 over 9 * swap - * ;
