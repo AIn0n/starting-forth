@@ -1,0 +1,16 @@
+1.
+    1. -1
+    2. 0
+    3. -1
+
+3.
+(age --)
+: CARD 17 > IF ." can drink " ELSE ." sorry kiddo " THEN ;
+
+4.
+(n --)
+: SIGN.TEST DUP 0= IF ." ZERO " ELSE 0> IF ." POSITIVE " ELSE ." NEGATIVE " THEN THEN ;
+
+6.
+(n lo hi -- flag)
+: WITHIN rot dup rot < IF 1 + < ELSE DROP DROP 0 THEN ;
