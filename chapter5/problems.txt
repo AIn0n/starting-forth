@@ -1,0 +1,5 @@
+1.
+: c5p1 swap rot negate * / ;
+
+2.
+: max.of.four max max max ;
